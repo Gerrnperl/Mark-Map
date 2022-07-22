@@ -47,7 +47,7 @@ details summary::marker {
     width: 2rem;
     height: 2rem;
     display: inline;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .person-name{
