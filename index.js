@@ -198,7 +198,7 @@ function log(key){
 	document.body.appendChild(keyScript);
 	keyScript.addEventListener('load', async()=>{
 		try{
-			let encrypted_data = await (await fetch('./data0725.json.enc')).text();
+			let encrypted_data = await (await fetch('./data.json.enc')).text();
 			let data = decrypt(keyArr, encrypted_data);
 			console.log(data);
 			let dataObj = JSON.parse(data);
